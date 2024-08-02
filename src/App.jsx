@@ -4,6 +4,8 @@ import Community from './components/Community'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import { Analytics } from "@vercel/analytics/react"
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <About />
         <Community />
         <Footer />
+        <Analytics />
     </div>
   )
 }

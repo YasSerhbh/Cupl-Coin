@@ -1,0 +1,131 @@
+/* <reset-style> ============================ */
+
+
+.test-bg {
+    background: linear-gradient(to bottom, #b08968, #d2b48c); /* Gradient from #a78b62 to #d2b48c */
+}
+
+.test-bg2 {
+    background: linear-gradient(to bottom, #d2b48c, #b08968); /* Gradient from #a78b62 to #d2b48c */
+}
+
+a {
+    text-decoration: none;
+  }
+  /* <main-style> ============================ */
+  .menu__link {
+    line-height: 2;
+    position: relative;
+  }
+  
+  .menu__link::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -.25rem;
+    left: 50%;
+    transition: width .4s, left .4s;
+  }
+  
+  .menu__link:hover::before {
+    width: 100%;
+    left: 0;
+  }
+
+
+  .telegram {
+    transition: none 0.5s ease;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 130px;
+    height: 50px;
+    gap: 10px;
+    border: none;
+    background-color: rgb(42 171 238);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .telegram-text {
+    transition: none 0.3s ease;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .telegram:hover .telegram-text {
+    display: none;
+    position: absolute;
+  }
+  
+  .telegram-svg {
+    width: 23px;
+    height: 23px;
+    transition: 0.8s;
+  }
+  
+  .telegram:hover .telegram-svg {
+    margin-left: 40px;
+    display: block;
+    transform: rotate(50deg);
+  }
+  
+  
+  .twitter {
+    background: transparent;
+    position: relative;
+    padding: 0px 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(40, 144, 241);
+    border-radius: 15px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(40, 144, 241);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+  
+  .twitter span {
+    margin: 10px;
+    z-index: 1;
+  }
+  
+  .twitter::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: 0;
+  }
+  
+  .twitter:hover {
+    color: #fff;
+    border: 1px solid rgb(40, 144, 241) !important;
+  }
+  
+  .twitter:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(40, 144, 241) !important;
+  }
+   

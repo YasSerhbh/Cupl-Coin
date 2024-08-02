@@ -1,0 +1,19 @@
+
+#b08968 - A warm, muted brown.
+#c19a6b - A soft, light brown.
+#9c7a57 - A medium brown with a hint of warmth.
+#d2b48c - Tan, a pale brown.
+#a87f50 - A rich, earthy brown.
+
+
+Summary:
+Main Background Color: #b08968
+Secondary Background Color: #d2b48c
+Main Color (for buttons, links, and highlights): #5A9A96
+Accent Color (for additional highlights): #C89B6D
+
+Main Font (Headings and Titles):
+"Comic Neue" - A modern take on the classic Comic Sans, it's playful but more refined.
+
+Secondary Font (Body Text):
+"Quicksand" - A simple, rounded sans-serif font that maintains readability while keeping a light-hearted tone.
